@@ -35,14 +35,11 @@ $kategori = query("SELECT * FROM kategori");
           <li><a href="<?= BASE_URL ?>">Beranda</a></li>
           <li><a href="<?= BASE_URL.'about' ?>">Tentang Kami</a></li>
           <li><a href="<?= BASE_URL.'cari' ?>">Cari</a></li>
-          <li>
-            <a class="collapsible-header">Kategori</a>
-            <div class="collapsible-body">
+          <li><a class="subheader">Kategori</a></li>
+          
               <?php foreach ($kategori as $row): ?>
               <li><a href="<?= BASE_URL.'kategori/'.$row['id_kategori'] ?>"><?= $row['nama_kategori']?></a></li>
               <?php endforeach ?>
-            </div>
-          </li>
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       </div>
