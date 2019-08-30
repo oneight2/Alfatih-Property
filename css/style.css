@@ -1,0 +1,100 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 599px) {
+  #index-banner .section {
+    top: 0;
+  }
+  h3{
+    font-size: 20pt;
+  }
+  .vid-kontak iframe{
+    height: auto;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+.container-1{
+  padding: 0% 10%;
+}
+.container-2{
+  padding: 0% 5%;
+}
+.logo{
+  max-width: 40%;
+}
+.smallest{
+  height: auto; !important;
+}
+.vid-kontak iframe{
+  width: 95% !important;
+}
+.gmaps iframe{
+  width: 90% !important;
+  height: auto;
+}
+.caret{
+  display: none !important;
+}
+.relative{
+  position: relative;
+}
+.data_carousel{
+  position: absolute;
+  top: 100px;
+  left: 30px;
+}
+strong{
+  font-weight: bold;
+}
+.card-title{
+  background-color: rgba(27, 27, 27, 0.486);
+  font-weight: 300 !important;
+}
